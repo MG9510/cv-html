@@ -1,0 +1,123 @@
+/* --------------------------------------------------------------- */
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: rgb(18, 33, 52); */    
+}
+
+/* --------------------------------------------------------------- */
+
+.flex-elem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-elem {
+    display: block;
+    margin: auto;
+}
+
+/* --------------------------------------------------------------- */
+
+.main-content {
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+    border-top: 10px solid lightgray;
+}
+
+.main-header {
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    background-color: black;
+    color: white;
+    text-align: left;
+    border-left: 15px solid brown;
+    border-right: 15px solid brown;
+}
+
+.main-data-block {
+    margin: 1%;
+    padding: 2%;
+    background-color: lightgray;
+    color: black;
+    border-radius: 10px;
+}
+
+.row-data-block {
+    margin: 2%;
+    padding: 2%;
+    background-color: rgb(18, 33, 52);
+    color: white;
+    border-radius: 10px;
+}
+
+.web-link {
+    background-color: darkgray;
+    color: black;
+    padding: 2%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* --------------------------------------------------------------- */
+
+.side-content {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 205, 75);
+    color: white;
+}
+
+.profile-pic {
+    width: 100%;
+}
+
+.profile-txt {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    background-color: rgb(255, 205, 75);
+    color: black;
+    text-align: center;
+}
+
+.side-header {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-left: 15px solid brown;
+}
+
+.side-data-block {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7.5%;
+    margin-bottom: 7.5%;
+    padding: 2%;
+    background-color: lightgray;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* --------------------------------------------------------------- */
