@@ -2,7 +2,7 @@
 
 html {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     margin: 0px;
     padding: 0px;
     -webkit-user-select: none;
@@ -11,17 +11,17 @@ html {
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
+    /* border: 3px solid #333333; */
 }
 
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    /* background-color: rgb(18, 33, 52); */    
+    /* size: 21cm 29.7cm; */
+    background-color: whitesmoke;
 }
 
-/* --------------------------------------------------------------- */
+.block-elem {
+    display: block;
+}
 
 .flex-elem {
     display: flex;
@@ -29,95 +29,54 @@ body {
     align-items: center;
 }
 
-.block-elem {
-    display: block;
-    margin: auto;
-}
-
 /* --------------------------------------------------------------- */
 
-.main-content {
+.main-header{
+    background-color: #333333;
+    color: white;
+    padding: 5px;
+}
+
+.sub-header{
+    background-color: #338078;
+    color: white;
+    padding: 5px;
+    font-size: 110%;
+}
+
+.summary {
+    padding: 1%
+}
+
+.section-header {
+    display: inline-flex;   
     width: 100%;
-    height: 100%;
-    background-color: lightgray;
-    border-top: 10px solid lightgray;
-}
-
-.main-header {
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 2%;
-    background-color: black;
+    height: 35px;
+    background-color: #333333;
     color: white;
-    text-align: left;
-    border-left: 15px solid brown;
-    border-right: 15px solid brown;
+    padding: 2.5px 7.5px 2.5px 7.5px;
+    font-size: 110%;
+    font-style: italic;
 }
 
-.main-data-block {
-    margin: 1%;
-    padding: 2%;
-    background-color: lightgray;
-    color: black;
-    border-radius: 10px;
+
+.data-card {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
-.row-data-block {
-    margin: 2%;
-    padding: 2%;
-    background-color: rgb(18, 33, 52);
-    color: white;
-    border-radius: 10px;
+/* .data-card-header {
+    background-color: lightblue; 
+    color: black; 
+    padding: 5px; 
+    border-radius: 5px
+} */
+
+.data-card-header {
+    background-color: #338078; 
+    color: white; 
+    padding: 5px; 
+    border-radius: 5px
 }
-
-.web-link {
-    background-color: darkgray;
-    color: black;
-    padding: 2%;
-    border-radius: 10px;
-    text-align: center;
-}
-
-/* --------------------------------------------------------------- */
-
-.side-content {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(255, 205, 75);
-    color: white;
-}
-
-.profile-pic {
-    width: 100%;
-}
-
-.profile-txt {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    padding: 2%;
-    background-color: rgb(255, 205, 75);
-    color: black;
-    text-align: center;
-}
-
-.side-header {
-    padding: 10px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    border-left: 15px solid brown;
-}
-
-.side-data-block {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 7.5%;
-    margin-bottom: 7.5%;
-    padding: 2%;
-    background-color: lightgray;
-    color: black;
-    border-radius: 10px;
-    text-align: center;
-}
-
-/* --------------------------------------------------------------- */
